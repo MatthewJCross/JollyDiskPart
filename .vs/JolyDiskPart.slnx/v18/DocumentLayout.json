@@ -1,0 +1,90 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Projects\\JolyDiskPart\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A795A307-335A-72A8-0380-569936BE2BFF}|JolyDiskPart\\JollyDiskPart.csproj|d:\\projects\\jolydiskpart\\jolydiskpart\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A795A307-335A-72A8-0380-569936BE2BFF}|JolyDiskPart\\JollyDiskPart.csproj|solutionrelative:jolydiskpart\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A795A307-335A-72A8-0380-569936BE2BFF}|JolyDiskPart\\JollyDiskPart.csproj|d:\\projects\\jolydiskpart\\jolydiskpart\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A795A307-335A-72A8-0380-569936BE2BFF}|JolyDiskPart\\JollyDiskPart.csproj|solutionrelative:jolydiskpart\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A795A307-335A-72A8-0380-569936BE2BFF}|JolyDiskPart\\JollyDiskPart.csproj|d:\\projects\\jolydiskpart\\jolydiskpart\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A795A307-335A-72A8-0380-569936BE2BFF}|JolyDiskPart\\JollyDiskPart.csproj|solutionrelative:jolydiskpart\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A795A307-335A-72A8-0380-569936BE2BFF}|JolyDiskPart\\JollyDiskPart.csproj|d:\\projects\\jolydiskpart\\jolydiskpart\\viewmodels\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A795A307-335A-72A8-0380-569936BE2BFF}|JolyDiskPart\\JollyDiskPart.csproj|solutionrelative:jolydiskpart\\viewmodels\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "D:\\Projects\\JolyDiskPart\\JolyDiskPart\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "JolyDiskPart\\MainWindow.xaml",
+              "ToolTip": "D:\\Projects\\JolyDiskPart\\JolyDiskPart\\MainWindow.xaml*",
+              "RelativeToolTip": "JolyDiskPart\\MainWindow.xaml*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-07-06T17:56:42.342Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "App.xaml",
+              "DocumentMoniker": "D:\\Projects\\JolyDiskPart\\JolyDiskPart\\App.xaml",
+              "RelativeDocumentMoniker": "JolyDiskPart\\App.xaml",
+              "ToolTip": "D:\\Projects\\JolyDiskPart\\JolyDiskPart\\App.xaml",
+              "RelativeToolTip": "JolyDiskPart\\App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-07-06T17:55:09.316Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MainViewModel.cs",
+              "DocumentMoniker": "D:\\Projects\\JolyDiskPart\\JolyDiskPart\\ViewModels\\MainViewModel.cs",
+              "RelativeDocumentMoniker": "JolyDiskPart\\ViewModels\\MainViewModel.cs",
+              "ToolTip": "D:\\Projects\\JolyDiskPart\\JolyDiskPart\\ViewModels\\MainViewModel.cs",
+              "RelativeToolTip": "JolyDiskPart\\ViewModels\\MainViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAIQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-06T17:54:26.417Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "D:\\Projects\\JolyDiskPart\\JolyDiskPart\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "JolyDiskPart\\MainWindow.xaml.cs",
+              "ToolTip": "D:\\Projects\\JolyDiskPart\\JolyDiskPart\\MainWindow.xaml.cs",
+              "RelativeToolTip": "JolyDiskPart\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-06T17:42:48.109Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
