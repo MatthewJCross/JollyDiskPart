@@ -1,0 +1,43 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <!-- Backgrounds -->
+    <Color x:Key="BackgroundColor">#11161D</Color>
+    <Color x:Key="PanelColor">#1B222C</Color>
+    <Color x:Key="CardColor">#202A36</Color>
+    <Color x:Key="CardBorder">#4A4F57</Color>
+    <Color x:Key="HoverColor">#283342</Color>
+
+    <!-- Accent -->
+    <Color x:Key="AccentColor">#2F80ED</Color>
+    <Color x:Key="AccentHoverColor">#4B96F0</Color>
+
+    <!-- Borders -->
+    <Color x:Key="BorderColor">#374351</Color>
+
+    <!-- Text -->
+    <Color x:Key="TextColor">#FFFFFF</Color>
+    <Color x:Key="SecondaryTextColor">#B8C2CC</Color>
+    <Color x:Key="MutedTextColor">#B8C2CC</Color>
+
+    <!-- Partition Colours -->
+    <Color x:Key="PrimaryPartitionColor">#2F80ED</Color>
+    <Color x:Key="EFIColor">#27AE60</Color>
+    <Color x:Key="RecoveryColor">#F39C12</Color>
+    <Color x:Key="ReservedColor">#8E44AD</Color>
+    <Color x:Key="UnallocatedColor">#555555</Color>
+
+    <!-- Brushes -->
+    <SolidColorBrush x:Key="BackgroundBrush" Color="{StaticResource BackgroundColor}"/>
+    <SolidColorBrush x:Key="PanelBrush" Color="{StaticResource PanelColor}"/>
+    <SolidColorBrush x:Key="CardBrush" Color="{StaticResource CardColor}"/>
+    <SolidColorBrush x:Key="HoverBrush" Color="{StaticResource HoverColor}"/>
+    <SolidColorBrush x:Key="AccentBrush" Color="{StaticResource AccentColor}"/>
+    <SolidColorBrush x:Key="AccentHoverBrush" Color="{StaticResource AccentHoverColor}"/>
+    <SolidColorBrush x:Key="BorderBrush" Color="{StaticResource BorderColor}"/>
+    <SolidColorBrush x:Key="TextBrush" Color="{StaticResource TextColor}"/>
+    <SolidColorBrush x:Key="SecondaryTextBrush" Color="{StaticResource SecondaryTextColor}"/>
+    <SolidColorBrush x:Key="MutedBrush" Color="{StaticResource MutedTextColor}"/>
+
+
+</ResourceDictionary>

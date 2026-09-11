@@ -1,0 +1,17 @@
+﻿<Application x:Class="JollyDiskPart.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:JollyDiskPart"
+             xmlns:converters="clr-namespace:JollyDiskPart.Converters"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        <ResourceDictionary>
+            <converters:PartitionWidthConverter x:Key="PartitionWidthConverter"/>
+            <converters:BoolToVisibilityConverter x:Key="BoolToVisibilityConverter"/>
+            <converters:InverseBooleanConverter x:Key="InverseBooleanConverter"/>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="Themes/Themes.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>

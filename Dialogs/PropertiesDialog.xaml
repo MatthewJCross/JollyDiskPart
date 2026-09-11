@@ -1,0 +1,164 @@
+﻿<Window x:Class="JollyDiskPart.Dialogs.PropertiesDialog"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:JollyDiskPart.Dialogs"
+        mc:Ignorable="d"
+        Title="Partition Properties"
+        Height="600"
+        Width="520"
+        MinHeight="500"
+        WindowStartupLocation="CenterOwner"
+        ResizeMode="NoResize"
+        ShowInTaskbar="False">
+
+    <Grid Margin="15">
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <ScrollViewer Grid.Row="0" VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Disabled">
+            <StackPanel>
+
+                <!-- ==================== PARTITION ==================== -->
+                <GroupBox Header="Partition" Margin="0,0,0,10">
+                    <Grid Margin="10">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="155"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                        </Grid.RowDefinitions>
+
+                        <TextBlock Grid.Row="0" Text="Partition Number:" Margin="0,3,10,3"/>
+                        <TextBlock Grid.Row="0" Grid.Column="1" Text="{Binding PartitionNumber}" Margin="0,3"/>
+                        <TextBlock Grid.Row="1" Text="Drive Letter:" Margin="0,3,10,3"/>
+                        <TextBlock Grid.Row="1" Grid.Column="1" Text="{Binding DriveLetter}" Margin="0,3"/>
+                        <TextBlock Grid.Row="2" Text="Label:" Margin="0,3,10,3"/>
+                        <TextBlock Grid.Row="2" Grid.Column="1" Text="{Binding Label}" Margin="0,3"/>
+                        <TextBlock Grid.Row="3" Text="File System:" Margin="0,3,10,3"/>
+                        <TextBlock Grid.Row="3" Grid.Column="1" Text="{Binding FileSystem}" Margin="0,3"/>
+                        <TextBlock Grid.Row="4" Text="Partition Type:" Margin="0,3,10,3"/>
+                        <TextBlock Grid.Row="4" Grid.Column="1" Text="{Binding Type}" Margin="0,3"/>
+                        <TextBlock Grid.Row="5" Text="Type ID:" Margin="0,3,10,3"/>
+                        <TextBlock Grid.Row="5" Grid.Column="1" Text="{Binding TypeId}" TextWrapping="Wrap" Margin="0,3"/>
+                        <TextBlock Grid.Row="6" Text="Volume Number:" Margin="0,3,10,3"/>
+                        <TextBlock Grid.Row="6" Grid.Column="1" Text="{Binding VolumeNumber}" Margin="0,3"/>
+                    </Grid>
+                </GroupBox>
+
+
+                <!-- ==================== LAYOUT ==================== -->
+                <GroupBox Header="Layout" Margin="0,0,0,10">
+                    <Grid Margin="10">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="155"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                        </Grid.RowDefinitions>
+
+                        <TextBlock Grid.Row="0" Text="Size:" Margin="0,3,10,3"/>
+                        <TextBlock Grid.Row="0" Grid.Column="1" Text="{Binding Size}" Margin="0,3"/>
+                        <TextBlock Grid.Row="1" Text="Offset:" Margin="0,3,10,3"/>
+                        <TextBlock Grid.Row="1" Grid.Column="1" Text="{Binding Offset}" Margin="0,3"/>
+                        <TextBlock Grid.Row="2" Text="End Offset:" Margin="0,3,10,3"/>
+                        <TextBlock Grid.Row="2" Grid.Column="1" Text="{Binding EndOffset}" Margin="0,3"/>
+                    </Grid>
+                </GroupBox>
+
+
+                <!-- ==================== FILESYSTEM ==================== -->
+                <GroupBox Header="Filesystem" Margin="0,0,0,10">
+                    <Grid Margin="10">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="155"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                        </Grid.RowDefinitions>
+
+                        <TextBlock Grid.Row="0" Text="File System:" Margin="0,3,10,3"/>
+                        <TextBlock Grid.Row="0" Grid.Column="1" Text="{Binding FileSystem}" Margin="0,3"/>
+                        <TextBlock Grid.Row="1" Text="Cluster Size:" Margin="0,3,10,3"/>
+                        <TextBlock Grid.Row="1" Grid.Column="1" Text="{Binding ClusterSize}" Margin="0,3"/>
+                        <TextBlock Grid.Row="2" Text="Total Clusters:" Margin="0,3,10,3"/>
+                        <TextBlock Grid.Row="2" Grid.Column="1" Text="{Binding TotalClusters}" Margin="0,3"/>
+                        <TextBlock Grid.Row="3" Text="Allocated Clusters:" Margin="0,3,10,3"/>
+                        <TextBlock Grid.Row="3" Grid.Column="1" Text="{Binding AllocatedClusters}" Margin="0,3"/>
+                        <TextBlock Grid.Row="4" Text="Free Clusters:" Margin="0,3,10,3"/>
+                        <TextBlock Grid.Row="4" Grid.Column="1" Text="{Binding FreeClusters}" Margin="0,3"/>
+                        <TextBlock Grid.Row="5" Text="Used:" Margin="0,3,10,3"/>
+                        <TextBlock Grid.Row="5" Grid.Column="1" Text="{Binding Used}" Margin="0,3"/>
+                        <TextBlock Grid.Row="6" Text="Free:" Margin="0,3,10,3"/>
+                        <TextBlock Grid.Row="6" Grid.Column="1" Text="{Binding Free}" Margin="0,3"/>
+                    </Grid>
+                </GroupBox>
+
+
+                <!-- ==================== FLAGS ==================== -->
+                <GroupBox Header="Flags" Margin="0,0,0,5">
+                    <Grid Margin="10">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="155"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                        </Grid.RowDefinitions>
+
+                        <TextBlock Grid.Row="0" Text="Hidden:" Margin="0,3,10,3"/>
+                        <TextBlock Grid.Row="0" Grid.Column="1" Text="{Binding Hidden}" Margin="0,3"/>
+                        <TextBlock Grid.Row="1" Text="Read Only:" Margin="0,3,10,3"/>
+                        <TextBlock Grid.Row="1" Grid.Column="1" Text="{Binding ReadOnly}" Margin="0,3"/>
+                        <TextBlock Grid.Row="2" Text="Required:" Margin="0,3,10,3"/>
+                        <TextBlock Grid.Row="2" Grid.Column="1" Text="{Binding Required}" Margin="0,3"/>
+                        <TextBlock Grid.Row="3" Text="System:" Margin="0,3,10,3"/>
+                        <TextBlock Grid.Row="3" Grid.Column="1" Text="{Binding System}" Margin="0,3"/>
+                        <TextBlock Grid.Row="4" Text="Boot:" Margin="0,3,10,3"/>
+                        <TextBlock Grid.Row="4" Grid.Column="1" Text="{Binding Boot}" Margin="0,3"/>
+                        <TextBlock Grid.Row="5" Text="Recovery:" Margin="0,3,10,3"/>
+                        <TextBlock Grid.Row="5" Grid.Column="1" Text="{Binding Recovery}" Margin="0,3"/>
+                        <TextBlock Grid.Row="6" Text="OEM:" Margin="0,3,10,3"/>
+                        <TextBlock Grid.Row="6" Grid.Column="1" Text="{Binding OEM}" Margin="0,3"/>
+                        <TextBlock Grid.Row="7" Text="Protected:" Margin="0,3,10,3"/>
+                        <TextBlock Grid.Row="7" Grid.Column="1" Text="{Binding Protected}" Margin="0,3"/>
+                    </Grid>
+                </GroupBox>
+            </StackPanel>
+        </ScrollViewer>
+
+        <Button Grid.Row="1" Width="80" Height="28" Margin="0,15,0,0" HorizontalAlignment="Right" Content="Close" IsDefault="True" IsCancel="True"/>
+    </Grid>
+</Window>

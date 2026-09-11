@@ -1,0 +1,99 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net10.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+    <ApplicationIcon>Resources\DiskPart.ico</ApplicationIcon>
+  </PropertyGroup>
+
+	<PropertyGroup>
+		<AssemblyName>JollyDiskPart</AssemblyName>
+		<RootNamespace>JollyDiskPart</RootNamespace>
+
+		<Product>JollyDiskPart</Product>
+		<Description>Disk partition management utility</Description>
+		<Company>Jolly Software Inc</Company>
+		<Authors>MJC</Authors>
+
+		<Version>1.0.0</Version>
+		<AssemblyVersion>1.0.0.0</AssemblyVersion>
+		<FileVersion>1.0.0.0</FileVersion>
+
+		<Copyright>Copyright © 2026 Jolly Software Inc</Copyright>
+		<PackageId>JollyDiskPart</PackageId>
+	</PropertyGroup>
+	
+	<ItemGroup>
+    <None Remove="Resources\Change.png" />
+    <None Remove="Resources\Clean.png" />
+    <None Remove="Resources\Create.png" />
+    <None Remove="Resources\Delete.png" />
+    <None Remove="Resources\DiskPart.png" />
+    <None Remove="Resources\Extend.png" />
+    <None Remove="Resources\Format.png" />
+    <None Remove="Resources\GPT.png" />
+    <None Remove="Resources\GptPartition.png" />
+    <None Remove="Resources\HD.png" />
+    <None Remove="Resources\Icons\bluray.png" />
+    <None Remove="Resources\Icons\cdrom.png" />
+    <None Remove="Resources\Icons\disk-hdd.png" />
+    <None Remove="Resources\Icons\dvd.png" />
+    <None Remove="Resources\Icons\ramdisk.png" />
+    <None Remove="Resources\Icons\sdcard.png" />
+    <None Remove="Resources\Icons\virtual.png" />
+    <None Remove="Resources\MBR.png" />
+    <None Remove="Resources\Move.png" />
+    <None Remove="Resources\msr.png" />
+    <None Remove="Resources\Offline.png" />
+    <None Remove="Resources\Online.png" />
+    <None Remove="Resources\partition.png" />
+    <None Remove="Resources\Properties.png" />
+    <None Remove="Resources\Shrink.png" />
+    <None Remove="Resources\unknown.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Resources\DiskPart.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Management" Version="10.0.9" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Resources\Change.png" />
+    <Resource Include="Resources\Clean.png" />
+    <Resource Include="Resources\Create.png" />
+    <Resource Include="Resources\Delete.png" />
+    <Resource Include="Resources\DiskPart.png" />
+    <Resource Include="Resources\Extend.png" />
+    <Resource Include="Resources\Format.png" />
+    <Resource Include="Resources\GPT.png" />
+    <Resource Include="Resources\GptPartition.png" />
+    <Resource Include="Resources\HD.png" />
+    <Resource Include="Resources\Icons\bluray.png" />
+    <Resource Include="Resources\Icons\cdrom.png" />
+    <Resource Include="Resources\Icons\disk-hdd.png" />
+    <Resource Include="Resources\Icons\dvd.png" />
+    <Resource Include="Resources\Icons\ramdisk.png" />
+    <Resource Include="Resources\Icons\sdcard.png" />
+    <Resource Include="Resources\Icons\virtual.png" />
+    <Resource Include="Resources\Initialise.png" />
+    <Resource Include="Resources\MBR.png" />
+    <Resource Include="Resources\Move.png" />
+    <Resource Include="Resources\msr.png" />
+    <Resource Include="Resources\Offline.png" />
+    <Resource Include="Resources\Online.png" />
+    <Resource Include="Resources\partition.png" />
+    <Resource Include="Resources\Properties.png" />
+    <Resource Include="Resources\Shrink.png" />
+    <Resource Include="Resources\Icons\disk-ssd.png" />
+    <Resource Include="Resources\Icons\disk-usb.png" />
+    <Resource Include="Resources\Uninitialise.png" />
+    <Resource Include="Resources\unknown.png" />
+  </ItemGroup>
+
+</Project>

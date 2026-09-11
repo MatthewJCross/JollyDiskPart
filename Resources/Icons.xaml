@@ -1,0 +1,15 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <PathGeometry x:Key="RefreshIcon">
+        M20 11A8.1 8.1 0 1 1 12 3
+        M12 3V7
+    </PathGeometry>
+
+
+    <PathGeometry x:Key="ExportIcon">
+        M14 2H6A2 2 0 0 0 4 4V20A2 2 0 0 0 6 22H18A2 2 0 0 0 20 20V8Z
+        M14 2V8H20
+    </PathGeometry>
+
+</ResourceDictionary>
