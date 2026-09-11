@@ -299,6 +299,11 @@ Recommended environment:
 
 Some functionality may depend on the capabilities and configuration of the underlying Windows storage stack.
 
+For .NET 10, System.Management is not included automatically. Add the NuGet package.
+
+In the JollyDiskPart project directory run:
+    dotnet add package System.Management
+    
 ## Building
 
 Clone the repository:
